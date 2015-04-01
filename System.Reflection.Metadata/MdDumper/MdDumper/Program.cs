@@ -14,7 +14,7 @@ namespace MdDumper
         {
             if (args.Length == 0 || new[] {"/?", "-?", "-h", "--help"}.Any(x => string.Equals(args[0], x, StringComparison.OrdinalIgnoreCase)))
             {
-                //PrintUsage();
+                PrintUsage();
                 return;
             }
 
